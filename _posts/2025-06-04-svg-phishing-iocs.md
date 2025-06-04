@@ -13,3 +13,5 @@ Took Sophos SVG IOCs and formatted for import into Microsoft Defender (MDE) indi
 Sophos - <https://github.com/sophoslabs/IoCs/blob/master/20250205_SVGspam.csv>
 
 My Gist - <https://gist.github.com/vaneckzero/f48b64d8629f3823abb2b0f7e6e90d3f>
+
+test
