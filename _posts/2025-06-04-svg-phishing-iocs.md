@@ -2,8 +2,8 @@
 layout: post
 title: Sophos SVG phishing IOCs - Defender formatted
 subtitle: 
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+#gh-repo: daattali/beautiful-jekyll
+#gh-badge: [star, fork, follow]
 tags: [infosec]
 comments: false
 ---
