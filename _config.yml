@@ -18,7 +18,7 @@ navbar-links:
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
   #  - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://vaneckzero.com"
+  Author's home: "vaneckzero.com"
 
 # --- Logo --- #
 
@@ -43,7 +43,7 @@ social-network-links:
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   #facebook: nickjhall
   github: vaneckzero
-  twitter: vaneckzero
+  #twitter: vaneckzero
   #patreon: DeanAttali
   youtube: vaneckzero
 #  medium: yourname
@@ -75,7 +75,7 @@ rss-description: vaneckzero.com
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: true
   linkedin: true
   vk: false
