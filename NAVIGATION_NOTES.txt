@@ -1,0 +1,19 @@
+VANECKZERO site navigation notes
+
+Transmissions
+Featured art and media works: glitch video, CRT/photo studies, projection pieces, and major portfolio objects.
+
+Archive
+A browsable catalog/index of individual artifacts: videos, photos, research notes, drafts, studies, and recovered items. This is the expandable database-like part of the site.
+
+Live Systems
+Performance and installation systems: generative visuals, CRT routing, projection mapping, telemetry overlays, and live capture chains.
+
+Signal Studies
+Experimental sketches and conceptual bridges between cybersecurity, signal processing, media decay, telemetry, and image systems.
+
+Research
+Longer written cybersecurity/media essays. This is where publishable articles, methodology notes, case studies, and theory pieces live.
+
+About
+Artist/project identity, practice description, contact links, and eventually socials, booking, and collaboration information.

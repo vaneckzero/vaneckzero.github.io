@@ -1,5 +1,312 @@
----
-layout: home
-title: v@/\/3cKz3r0
-subtitle: Go then, there are other worlds than these...
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="[VANECKZERO]:TRANSMISSION_ARCHIVE is an electronic archive of glitch video art, signal studies, live systems, and cybersecurity research.">
+    <meta name="theme-color" content="#08090a">
+    <meta property="og:title" content="[VANECKZERO]:TRANSMISSION_ARCHIVE">
+    <meta property="og:description" content="Signal reconstruction studies, glitch media, live systems, and cybersecurity research.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/media/transmission-hero.png">
+    <title>[VANECKZERO]:TRANSMISSION_ARCHIVE</title>
+    <link rel="preload" href="assets/media/transmission-hero.png" as="image">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to archive</a>
+    <div class="signal-field" aria-hidden="true">
+      <canvas id="noise-canvas"></canvas>
+      <span class="scanline"></span>
+      <span class="vignette"></span>
+    </div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="VANECKZERO home">
+        <span>[VANECKZERO]</span>
+        <span>TRANSMISSION_ARCHIVE</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#transmissions">Transmissions</a>
+        <a href="#archive">Archive</a>
+        <a href="#systems">Live Systems</a>
+        <a href="#studies">Signal Studies</a>
+        <a href="#research">Research</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <picture>
+          <img src="assets/media/transmission-hero.png" alt="A degraded analog transmission image with dark architectural forms and subtle signal artifacts." class="hero-media">
+        </picture>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="system-label">SOURCE://RECOVERED_SIGNAL &nbsp; STATUS://PARTIAL</p>
+          <h1 id="hero-title">
+            <span>[VANECKZERO]:</span>
+            <span>TRANSMISSION_ARCHIVE</span>
+          </h1>
+          <p class="subtitle">SIGNAL RECONSTRUCTION STUDIES</p>
+        </div>
+        <div class="hero-readout" aria-label="Archive readout">
+          <span>ARCHIVE_NODE 01</span>
+          <span>NOISE FLOOR: -43DB</span>
+          <span>SYNC: UNSTABLE</span>
+        </div>
+        <div class="hero-coordinate" aria-hidden="true">
+          <span>LATENCY 17MS</span>
+          <span>FIELD TAPE / NIGHT INDEX</span>
+        </div>
+      </section>
+
+      <section class="section intro" aria-label="Archive statement">
+        <div class="section-kicker">~/DEGRADED_MEMORY/</div>
+        <p>
+          A quiet electronic archive for glitch video art, CRT installation studies, projection systems,
+          environmental footage, and cybersecurity research concerned with signal, failure, telemetry,
+          memory, and reconstruction.
+        </p>
+      </section>
+
+      <section class="section telemetry-strip" aria-label="Current archive telemetry">
+        <div>
+          <span>CAPTURE_CHANNEL</span>
+          <strong>ANALOG / DIGITAL HYBRID</strong>
+        </div>
+        <div>
+          <span>RECONSTRUCTION_STATE</span>
+          <strong>INCOMPLETE BUT STABLE</strong>
+        </div>
+        <div>
+          <span>ACTIVE_MATERIAL</span>
+          <strong>VIDEO / CRT / PACKET TRACE</strong>
+        </div>
+      </section>
+
+      <section class="section" id="transmissions" aria-labelledby="transmissions-title">
+        <div class="section-heading">
+          <div>
+            <p class="system-label">INDEX://MEDIA_OBJECTS</p>
+            <h2 id="transmissions-title">Transmissions</h2>
+          </div>
+          <p>Selected moving-image and installation works staged as recovered artifacts.</p>
+        </div>
+        <div class="project-grid">
+          <article class="transmission-card large">
+            <div class="artifact-visual visual-a" aria-hidden="true"></div>
+            <div class="card-body">
+              <p class="metadata">SOURCE://LIVE_CAPTURE &nbsp; SIGNAL://PARTIAL</p>
+              <h3>TRANSMISSION_ARCHIVE01</h3>
+              <p>Glitch video loops assembled from environmental footage, temporal compression, and CRT feedback.</p>
+            </div>
+          </article>
+          <article class="transmission-card">
+            <div class="artifact-visual visual-b" aria-hidden="true"></div>
+            <div class="card-body">
+              <p class="metadata">STATUS://DEGRADED &nbsp; FORMAT://CRT</p>
+              <h3>PHOSPHOR RESIDUE</h3>
+              <p>Installation stills exploring persistence, scan drift, and luminous memory.</p>
+            </div>
+          </article>
+          <article class="transmission-card">
+            <div class="artifact-visual visual-c" aria-hidden="true"></div>
+            <div class="card-body">
+              <p class="metadata">INPUT://FIELD_RECORDING &nbsp; SYNC://LOSS</p>
+              <h3>NOISE FIELD STUDIES</h3>
+              <p>Recovered landscape fragments processed through unstable signal chains.</p>
+            </div>
+          </article>
+          <article class="transmission-card">
+            <div class="artifact-visual visual-d" aria-hidden="true"></div>
+            <div class="card-body">
+              <p class="metadata">SOURCE://PROJECTION_TEST &nbsp; MAP://ROOM_TONE</p>
+              <h3>LIMINAL DECODER</h3>
+              <p>Projection mapping sketches where surfaces behave like damaged receiving instruments.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section archive-panel" id="archive" aria-labelledby="archive-title">
+        <div class="section-heading">
+          <div>
+            <p class="system-label">CATALOG://TRANSMISSION_LOG</p>
+            <h2 id="archive-title">Archive</h2>
+          </div>
+          <div class="filter-group" aria-label="Archive filters">
+            <button class="filter active" type="button" data-filter="all">All</button>
+            <button class="filter" type="button" data-filter="video">Video</button>
+            <button class="filter" type="button" data-filter="photo">Photo</button>
+            <button class="filter" type="button" data-filter="research">Research</button>
+          </div>
+        </div>
+        <div class="archive-list">
+          <article class="archive-item" data-kind="video">
+            <span>TX-001</span>
+            <h3>Collapsed Sync Window</h3>
+            <p>Looping video artifact, 00:03:42, 4:3 transfer.</p>
+            <small>STATUS://ONLINE</small>
+          </article>
+          <article class="archive-item" data-kind="photo">
+            <span>IM-014</span>
+            <h3>Temporal Burn Pattern</h3>
+            <p>Glitch photograph, CRT capture, amber channel instability.</p>
+            <small>STATUS://PARTIAL</small>
+          </article>
+          <article class="archive-item" data-kind="research">
+            <span>RS-007</span>
+            <h3>Telemetry As A Memory System</h3>
+            <p>Research note on overlays, threat signals, and media archaeology.</p>
+            <small>STATUS://DRAFT</small>
+          </article>
+          <article class="archive-item" data-kind="video">
+            <span>TX-019</span>
+            <h3>Environmental Decoder</h3>
+            <p>Projection study using field footage and generative degradation.</p>
+            <small>STATUS://RECOVERED</small>
+          </article>
+          <article class="archive-item" data-kind="photo">
+            <span>IM-021</span>
+            <h3>Low Light Reconstruction</h3>
+            <p>Night capture pushed through channel separation and phosphor residue.</p>
+            <small>STATUS://INDEXED</small>
+          </article>
+          <article class="archive-item" data-kind="research">
+            <span>RS-011</span>
+            <h3>Recovered Signal Method</h3>
+            <p>Working notes for translating forensic timelines into media-art systems.</p>
+            <small>STATUS://QUEUE</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="systems" aria-labelledby="systems-title">
+        <div>
+          <p class="system-label">PROCESS://REAL_TIME</p>
+          <h2 id="systems-title">Live Systems</h2>
+          <p>
+            Generative visuals, live capture chains, CRT routing, projection mapping, and telemetry overlays
+            designed for installation, performance, and site-responsive environments.
+          </p>
+        </div>
+        <div class="system-stack" aria-label="Live system modules">
+          <div><span>01</span> SIGNAL INGEST</div>
+          <div><span>02</span> FRAME CORRUPTION</div>
+          <div><span>03</span> TELEMETRY LAYER</div>
+          <div><span>04</span> OUTPUT / PROJECTION</div>
+        </div>
+      </section>
+
+      <section class="section studies" id="studies" aria-labelledby="studies-title">
+        <div class="section-heading">
+          <div>
+            <p class="system-label">LAB://SIGNAL_RECONSTRUCTION</p>
+            <h2 id="studies-title">Signal Studies</h2>
+          </div>
+          <p>Small experiments where technical systems are treated as image engines and memory devices.</p>
+        </div>
+        <div class="study-grid">
+          <article class="study-card">
+            <div class="study-index">STUDY_01</div>
+            <h3>Packet Weather</h3>
+            <p>Network metadata translated into slow visual pressure: drift, density, loss, and intermittent bright failures.</p>
+            <dl>
+              <div>
+                <dt>Input</dt>
+                <dd>flow logs</dd>
+              </div>
+              <div>
+                <dt>Output</dt>
+                <dd>generative overlay</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="study-card">
+            <div class="study-index">STUDY_02</div>
+            <h3>Decoder Fault</h3>
+            <p>Broken frame interpretation as an aesthetic method: compression edges, sync loss, and temporal misreadings.</p>
+            <dl>
+              <div>
+                <dt>Input</dt>
+                <dd>field video</dd>
+              </div>
+              <div>
+                <dt>Output</dt>
+                <dd>looping artifact</dd>
+              </div>
+            </dl>
+          </article>
+          <article class="study-card">
+            <div class="study-index">STUDY_03</div>
+            <h3>Telemetry Room</h3>
+            <p>Installation notes for pairing sensor readouts, CRT glow, and projection surfaces in quiet industrial space.</p>
+            <dl>
+              <div>
+                <dt>Input</dt>
+                <dd>environment</dd>
+              </div>
+              <div>
+                <dt>Output</dt>
+                <dd>site system</dd>
+              </div>
+            </dl>
+          </article>
+        </div>
+      </section>
+
+      <section class="section research" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <div>
+            <p class="system-label">NOTES://SIGNAL_STUDIES</p>
+            <h2 id="research-title">Research</h2>
+          </div>
+          <p>Cybersecurity writing framed through systems, traces, reconstruction, and compromised signal.</p>
+        </div>
+        <div class="research-grid">
+          <a class="research-card" href="research/defensive-telemetry-as-archive.html" aria-label="Read study: Defensive telemetry as archive">
+            <span>RESEARCH_001</span>
+            <h3>Defensive Telemetry As Archive</h3>
+            <p>How logs, packet traces, and sensor noise become historical material.</p>
+          </a>
+          <a class="research-card" href="research/memory-corruption-media-decay.html" aria-label="Read study: Memory corruption and media decay">
+            <span>RESEARCH_002</span>
+            <h3>Memory Corruption / Media Decay</h3>
+            <p>A shared vocabulary for exploit surfaces and damaged broadcast aesthetics.</p>
+          </a>
+          <a class="research-card" href="research/reconstruction-after-compromise.html" aria-label="Read study: Reconstruction after compromise">
+            <span>RESEARCH_003</span>
+            <h3>Reconstruction After Compromise</h3>
+            <p>Incident response as signal recovery, timeline repair, and forensic montage.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="system-label">IDENTITY://ARTIST_RECORD</p>
+          <h2 id="about-title">About</h2>
+        </div>
+        <p>
+          [VANECKZERO] works across glitch photography, video synthesis, live generative systems,
+          CRT installation, projection, and cybersecurity research. The archive treats damaged media,
+          telemetry, and environmental recordings as unstable evidence: signals that can be studied,
+          repaired, misread, and transformed.
+        </p>
+        <div class="contact-row">
+          <a href="mailto:hello@vaneckzero.com">hello@vaneckzero.com</a>
+          <a href="#" aria-label="Instagram profile placeholder">Instagram</a>
+          <a href="#" aria-label="GitHub profile placeholder">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>[VANECKZERO]:TRANSMISSION_ARCHIVE</span>
+      <span>SIGNAL://ONGOING</span>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
