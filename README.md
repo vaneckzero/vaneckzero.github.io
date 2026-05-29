@@ -1,4 +1,4 @@
-# [VANECKZERO]:TRANSMISSION_ARCHIVE
+# [V△NECKZER◉]:TRANSMISSION_ARCHIVE
 
 A static GitHub Pages-ready redesign for `vaneckzero.com`: an atmospheric media archive for glitch art, live visual systems, CRT/projection work, and cybersecurity research.
 

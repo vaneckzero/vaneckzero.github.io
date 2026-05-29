@@ -10,6 +10,7 @@
   --cyan: #78aeb5;
   --amber: #b99a62;
   --red: #a65f5f;
+  --logo-red: #ff4242;
   --shadow: rgba(0, 0, 0, 0.52);
   --mono: "SFMono-Regular", "Roboto Mono", "IBM Plex Mono", Consolas, monospace;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -219,12 +220,16 @@ button {
   color: var(--text);
 }
 
-.brand-z {
-  color: #c94f4f;
+.brand-mark {
+  color: #fff;
+}
+
+.brand-symbol {
+  color: var(--logo-red);
   font-weight: inherit;
 }
 
-.brand span:last-child {
+.brand > span:last-child {
   color: var(--muted);
 }
 
@@ -327,15 +332,15 @@ h1 {
   text-wrap: balance;
 }
 
-h1 span {
+h1 > span {
   display: block;
 }
 
-h1 span:first-child {
+h1 > span:first-child {
   white-space: nowrap;
 }
 
-h1 span:last-child {
+h1 > span:last-child {
   overflow-wrap: anywhere;
 }
 
